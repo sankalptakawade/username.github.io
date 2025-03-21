@@ -1,0 +1,161 @@
+<html>
+    <head>
+        <title>Women's</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            body {
+                position: relative;
+                background: url('lv14.png') no-repeat center center/cover;
+                background-attachment: fixed;
+                background-position-y: 2.5cm;
+                background-size: 100%;
+            }
+
+            body::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.6); /* Adjust the last value (0.5) for opacity */
+                z-index: -1;
+            }
+
+            .box {
+                width: 100%;
+                height: 12%;
+                background-color: white;
+                color: black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 25px;
+                font-weight: bold;
+                position: fixed;
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+                
+            }
+           
+            #head {
+                position: relative;
+                position: fixed;
+                top: 0.7px;
+            }
+            
+            .logo{
+                display: flex;
+                position: relative;
+                left: -2cm;
+                top: 0.8cm;
+               
+            }
+            
+            .logo img {
+                width: 50px; 
+                height: auto;
+            }
+            
+            .home {
+                margin-right: 40px;
+                padding-right: 1775px
+            }
+            
+            .copy {
+                font-size: 20px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                position: absolute;
+                top: 24cm;
+                left: 23.5cm;
+                text-align: center;
+                color: wheat;
+                align-content: flex-end;
+            }
+            .clothing-container {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr); /* 5 columns */
+                gap: 20px; /* Space between items */
+                justify-content: center;
+            }
+
+            /* Individual clothing item */
+            .clothing-item {
+                text-align: center;
+                background-color: #f8f8f8;
+                padding: 15px;
+                border-radius: 10px;
+                transition: transform 0.5s ease;
+            }
+
+            .clothing-item:hover{
+                transform: scale(1.2,1.2);
+            }
+
+            /* Clothing images */
+            .clothing-item img {
+                width: 100%;
+                border-radius: 8px;
+            }
+
+            /* Title */
+            .clothing-item h3 {
+                font-size: 50px;
+                margin: 10px 0 5px;
+                font-family: century gothic;
+            }
+
+            a {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Inherits text color from parent */
+}
+
+
+        
+        </style>
+    </head>
+    <body style="background-color: lightgray;">
+        <div class="box">
+            <div class="home">
+                <a href="LOUISVUITTON.html"><i class="fa-solid fa-house"></i></a>
+            </div>
+            <h3 id="head"><div class="logo"><img src="lv3.png"></div>LOUIS VUITTON</h3>
+           </div><br><br><br><br><br><br><br><br><br><br><br><br>
+           <div class="clothing-container">
+            <a href="wj.html">
+            <div class="clothing-item">
+                <img src="6sub5.jpg" alt="Shirt 1">
+                <h3>Jackets</h3>
+            </div></a>
+            <a href="wt.html">
+            <div class="clothing-item">
+                <img src="7sub8.jpg" alt="Shirt 2">
+                <h3>Tops</h3>
+            </div></a>
+            <a href="wtr.html">
+            <div class="clothing-item">
+                <img src="8sub2.jpg" alt="Shirt 3">
+                <h3>Trousers</h3>
+            </div></a>
+            <a href="wb.html">
+            <div class="clothing-item">
+                <img src="9sub3.jpg" alt="Shirt 4">
+                <h3>Bags</h3>
+            </div></a>
+            <a href="wf.html">
+            <div class="clothing-item">
+                <img src="10sub8.jpg" alt="Shirt 5">
+                <h3>Footwears</h3>
+            </div></a>
+        
+       </div>
+       <div class="copy"><p>&copy; Sankalp & Sudip</p></div>
+    </body>
+</html>
